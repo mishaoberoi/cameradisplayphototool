@@ -16,6 +16,8 @@ var imagePicker = UIImagePickerController()
         imagePicker.delegate = self
       
     }
+    @IBAction func lol(_ sender: Any) {
+    }
     @IBAction func imagePressed(_ sender: Any) {
         
         imagePicker.sourceType = .camera
